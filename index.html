@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Developer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+     <!-- NAVBAR -->
+    <nav class="navbar">
+        <!-- Toggle -->
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- LINKS -->
+        <div class="nav-links" id="navLinks">
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="experience.html"><i class="fa-solid fa-briefcase"></i> Experience</a>
+            <a href="project.html"><i class="fa-solid fa-layer-group"></i> Projects</a>
+            <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
+        <!-- LEFT SECTION -->
+        <section class="left">
+            <div class="badge">
+                👋 Welcome to my World
+                <span class="mini-pill"> Magic</span>
+            </div>
+
+            <h1>Hello<br>I'm <span>Djeffal Adem</span></h1>
+
+            <p class="subtitle">
+                CS Student 🚀 | Magic creator ⚡ | CyberSecurity Lover ✨
+            </p>
+
+            <div class="pills">
+                <span class="pill boxyellow">Clean Code</span>
+                <span class="pill boxpurpel">Innovation</span>
+                <span class="pill boxcyan">Linux</span>
+            </div>
+
+            <div class="button">
+                <a href="project.html"><button class="btn primary">View Projects</button></a>
+                <a href="contact.html"><button class="btn secondary">Contact Me</button></a>
+            </div>
+        </section>
+
+        <!-- RIGHT SECTION -->
+        <section class="right">
+            <div class="code-card">
+
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="filename">developer.js</span>
+                </div>
+
+                <pre><code>
+<span class="key">const</span> profile = {
+  name: <span class="string">"Djeffal Ahmed Adem Nadir"</span>,
+  title: <span class="string">"Full-Stack Developer | Cloud Enthusiast | Problem Solver"</span>,
+
+  skills: [
+    <span class="string">"C"</span>, <span class="string">"JavaScript"</span>, <span class="string">"Java"</span>, <span class="string">"Python"</span>,
+    ],
+
+  hardWorker: <span class="bool">true</span>,
+  quickLearner: <span class="bool">true</span>,
+  problemSolver: <span class="bool">true</span>,
+  yearsOfExperience: 2,
+
+  hireable: <span class="func">function</span>() {
+    <span class="key">return</span> (
+      <span class="key">this</span>.hardWorker &&
+      <span class="key">this</span>.problemSolver &&
+      <span class="key">this</span>.skills.length &gt; 5 &&
+      <span class="key">this</span>.yearsOfExperience &gt;= 3
+    );
+  }
+};
+</code></pre>
+
+            </div>
+        </section>
+        <br>
+
+        <section class="about-section" id="about">
+
+            <div class="about-container">
+
+                <!-- LEFT SIDE -->
+                <div class="about-left">
+                    <h1 class="about-title">
+                        <span> Developer</span>, Designer,<br>
+                        <span> Innovator</span>
+                    </h1>
+
+                    <div class="image-card">
+                        <img src="pictures/adem.png" alt="Djeffal Adem">
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="about-right">
+                    <p>
+                        Hello! I'm <strong>Djeffal Ahmed Adem Nadir</strong>,a software developer with a strong foundation in both web development and Python-based systems.
+                         I specialize in building efficient, secure, and well-structured solutions, 
+                         with a particular interest in detection systems and cybersecurity-oriented applications.
+                    </p>
+
+                    <p>
+                       Currently, I'm studying <strong> Computer Science </strong>while expanding my expertise in full-stack development. Alongside web technologies,
+                        I actively develop Python solutions in domains related to code analysis, detection mechanisms,
+                        and security-focused workflows, combining practical problem-solving with a strong understanding of system behavior.
+                    </p>
+
+                    <blockquote>
+                       I'm a disciplined learner and developer, driven by precision, clarity,
+                        and long-term growth. My goal is to design reliable software that balances performance, security,
+                         and usability. As I continue to deepen my knowledge across this domain,
+                        I focus on building robust systems that deliver real value and stand up to real-world challenges.
+                    </blockquote>
+
+                    <div class="signature">
+                        <span class="name">Djeffal Ahmed Adem Nadir</span>,
+                        <span class="role">Creator of</span>
+                        <span class="brand">Xennon</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
