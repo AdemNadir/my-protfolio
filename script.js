@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', () => {
+    initContactForm();
+});
+
 /* ===============================
    SMOOTH SCROLL BEHAVIOR
 ================================ */
@@ -102,7 +106,7 @@ if (toggle && nav) {
 
         setTimeout(() => {
             submitBtn.textContent = 'Message Sent!';
-            submitBtn.style.background = 'linear-gradient(135deg, #00ff88, #00ff00)';
+            submitBtn.style.background = 'linear-gradient(135deg, #2ee6a6, #3aa0ff)';
 
             setTimeout(() => {
                 form.reset();
@@ -144,13 +148,10 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
     emailjs
         .send("service_d5d2nss", "template_u22pf8s", params)
-        .then(() => {
-            alert("Email Sent Successfully!");
-            document.getElementById("contactForm").reset();
-        })
         .catch((error) => {
             console.error("EmailJS Error:", error);
             alert("Failed to send email.");
         });
 });
+
 
