@@ -181,7 +181,7 @@ h1 span {
 
 .boxyellow {
   position: relative;
-  right: 15%;
+  right: 7%;
   background: rgba(230, 205, 46, 0.1);
   color: orange;
   border: 1px solid rgba(244, 167, 0, 0.556);
@@ -235,7 +235,7 @@ h1 span {
   }
 
   25% {
-    transform: translateX(-100px);
+    transform: translateX(60px);
   }
 
   50% {
